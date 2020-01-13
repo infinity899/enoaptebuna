@@ -1,3 +1,5 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lemonada:700&display=swap" rel="stylesheet">
 <style>
 .octo_head:before, .octo_fin:before, .octo_eye:before, .octo_legs:before, .octo_head:after, .octo_fin:after, .octo_eye:after, .octo_legs:after {
   content: "";
@@ -8,6 +10,7 @@
 body {
   background-color: #24457c;
   padding-top: 30px;
+  font-family: 'Lemonada', cursive;
 }
 
 .bed {
@@ -281,24 +284,42 @@ body {
     bottom: -75px;
   }
 }
-</style>
-<div class="bed">
-  <div class="octo">
-    <div class="octo_head">
-      <div class="octo_fin"></div>
-      <span class="octo_eye eye--right"></span>
-      <span class="octo_eye eye--left"></span>
-      <div class="octo_mouth">
-        <span class="octo_mouth-tongue"></span>
-      </div>
-    </div> <!-- end head -->
 
-    <div class="octo_legs">
-      <span class="octo_leg leg-1"></span>
-      <span class="octo_leg leg-2"></span>
-      <span class="octo_leg leg-3"></span>
-      <span class="octo_leg leg-4"></span>
-      <span class="octo_leg leg-5"></span>
-    </div> <!-- end legs -->
+.main-text {
+  letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 36px !important;
+    color: #a7dbe0;
+    transform: rotate(-23deg);
+    -moz-transform: rotate(-23deg);
+    -ms-transform: rotate(-23deg);
+    -webkit-transform: rotate(-23deg);
+    margin-bottom: 36px;
+    animation: octo-effect 1s infinite alternate;
+}
+
+</style>
+</head>
+<body>
+  <div class="bed">
+    <h1 class="main-text">În curând...</h1>
+    <div class="octo">
+      <div class="octo_head">
+        <div class="octo_fin"></div>
+        <span class="octo_eye eye--right"></span>
+        <span class="octo_eye eye--left"></span>
+        <div class="octo_mouth">
+          <span class="octo_mouth-tongue"></span>
+        </div>
+      </div> <!-- end head -->
+
+      <div class="octo_legs">
+        <span class="octo_leg leg-1"></span>
+        <span class="octo_leg leg-2"></span>
+        <span class="octo_leg leg-3"></span>
+        <span class="octo_leg leg-4"></span>
+        <span class="octo_leg leg-5"></span>
+      </div> <!-- end legs -->
+    </div>
   </div>
-</div> 
+</body>
